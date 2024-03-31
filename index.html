@@ -4,22 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World.net</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:ital,wght@0,900;1,900&family=Poppins&family=Reem+Kufi&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html">World.Net</a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="">Reviews</a></li>
-          <li><a href="">Tarrifs</a></li>
-          <li><a href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address>
-        <a href="tel:88006549732">8 (800) 654-97-32</a>
-      </address>
+    <header class="header">
+      <div class="container header-container">
+        <a href="./index.html" class="header-logo">World.Net</a>
+        <nav>
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="./index.html" class="header-item-link">Home</a>
+            </li>
+            <li class="header-item">
+              <a href="#about" class="header-item-link">About</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-item-link">Reviews</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-item-link">Tarrifs</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-item-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <a href="tel:88006549732" class="header-phone">8 (800) 654-97-32</a>
+        </address>
+      </div>
     </header>
     <main>
       <section>
@@ -77,12 +103,19 @@
         </ul>
       </section>
       <section id="about">
-      
-        <img src="./images/about-img.svg" alt="about-img" width="544" height="525">
+        <img
+          src="./images/about-img.svg"
+          alt="about-img"
+          width="544"
+          height="525"
+        />
         <h2>We will connect today or next day</h2>
-        <p>Our coverage area is much smaller than that of large providers. This allows us to work quickly: 64% of subscribers
-        receive Internet and TV immediately on the day of application. Even if you need to connect a private house, not an
-        apartment.</p>
+        <p>
+          Our coverage area is much smaller than that of large providers. This
+          allows us to work quickly: 64% of subscribers receive Internet and TV
+          immediately on the day of application. Even if you need to connect a
+          private house, not an apartment.
+        </p>
         <ul>
           <li>
             <h3>14 536</h3>
@@ -98,9 +131,33 @@
     <footer>
       <a href="./index.html">World.Net</a>
       <ul>
-        <li><a target="_blank" href="" aria-label="instagramlink"><img src="./images/instagram.svg" width="40" height="40" alt="instagram"></a></li>
-        <li><a target="_blank" href="" aria-label="facebooklink"><img src="./images/facebook.svg" width="40" height="40" alt="facebook"></a></li>
-        <li><a target="_blank" href="" aria-label="whatsapplink"><img src="./images/whatsapp.svg" width="40" height="40" alt="whatsapp"></a></li>
+        <li>
+          <a target="_blank" href="" aria-label="instagramlink"
+            ><img
+              src="./images/instagram.svg"
+              width="40"
+              height="40"
+              alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a target="_blank" href="" aria-label="facebooklink"
+            ><img
+              src="./images/facebook.svg"
+              width="40"
+              height="40"
+              alt="facebook"
+          /></a>
+        </li>
+        <li>
+          <a target="_blank" href="" aria-label="whatsapplink"
+            ><img
+              src="./images/whatsapp.svg"
+              width="40"
+              height="40"
+              alt="whatsapp"
+          /></a>
+        </li>
       </ul>
       <address>
         <a href="tel:88006549732">8 (800) 654-97-32</a>
