@@ -132,3 +132,46 @@ border: none;
 }
 
 .hero-img {}
+
+.company {
+  background-color: #275f7a;
+  padding-top: 100px ;
+  padding-bottom: 100px;
+}
+
+.company-title {
+    font-size: 36px;
+    line-height: 1.33;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.company-list {
+  display: flex;
+  gap: 53px;
+}
+
+.company-item {
+  width: calc((100% - 106px)/3);
+}
+
+.company-img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 11px;
+}
+
+.company-item-title {
+    font-size: 22px;
+    line-height: 1.43;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.company-text {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+}
